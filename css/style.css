@@ -1,0 +1,578 @@
+/* ここから下に記載していく */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1200px;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background-color: #707070;
+    height: 10px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1 {
+    padding: 60px 0px 0px 0px;
+}
+
+h2 {
+    padding: 30px 0px 0px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-position {
+    position: relative;
+}
+
+.image-position p {
+    position: absolute;/*絶対配置*/
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    }
+  
+.image-position img {
+    width: 100%;
+    }
+
+#logo {
+    font-size: 80px;
+    padding: 20px 0px 20px 25px;
+}
+
+#school-name {
+    font-size: 25px;
+    padding: 25px 25px 0px 0px;
+}
+
+#school-area {
+    font-size: 30px;
+    padding: 10px 25px 0px 0px;
+}
+
+.navi {
+    font-size: 21px;
+    padding: 50px 25px 50px 25px;
+}
+
+#navi-menu {
+    display: flex;
+}
+
+#main-img {
+    width: 1200px;
+}
+
+/* About */
+#about {
+    text-align: center;
+}
+
+#about-title {
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+#about-text1 {
+    padding: 60px 0px 0px 0px;
+}
+
+#about-text2 {
+    padding: 40px 0px 0px 0px;
+}
+
+#about-text3 {
+    padding: 10px 0px 0px 0px;
+}
+
+#about-text4 {
+    padding: 40px 0px 0px 0px;
+}
+
+#about-text5 {
+    padding: 40px 0px 0px 0px;
+}
+
+#about-text6 {
+    padding: 10px 0px 60px 0px;
+}
+
+.about-image {
+    padding: 80px 0px 0px 0px;
+    display: flex;
+}
+
+.about-img {
+    width: 300px;
+}
+
+/* slider */
+.loop_wrap {
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .loop_wrap img {
+    width: auto;
+    height: 100%;
+  }
+
+  @keyframes loop {
+    0% {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes loop2 {
+    0% {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-200%);
+    }
+  }
+
+  .loop_wrap img:first-child {
+    animation: loop 50s -25s linear infinite;
+  }
+  
+  .loop_wrap img:last-child {
+    animation: loop2 50s linear infinite;
+  }
+
+/* Course */
+#course {
+    text-align: center;
+}
+
+.course-design {
+    display: flex;
+    padding: 0px 120px 0px 120px;
+}
+
+.course-text {
+    width: 480px;
+}
+
+.course-image {
+    width: 480px;
+}
+
+#course-title {
+    font-size: 24px;
+    color: #ffd61a;
+}
+
+#course-text1 {
+    padding: 30px 0px 0px 0px;
+}
+
+#course-text2 {
+    padding: 15px 0px 60px 0px;
+}
+
+#course-content1-subtitle {
+    font-size: 21px;
+    text-align: left;
+    padding: 70px 0px 0px 50px;
+}
+
+#course-content1-text1 {
+    padding: 40px 0px 0px 50px;
+    text-align: left;
+}
+
+#course-content1-text2 {
+    padding: 10px 0px 0px 50px;
+    text-align: left;
+}
+
+#course-content1-text3 {
+    padding: 10px 0px 0px 50px;
+    text-align: left;
+}
+
+#course-content1-text4 {
+    padding: 10px 0px 0px 50px;
+    text-align: left;
+}
+
+#course-content1-text5 {
+    padding: 10px 0px 0px 50px;
+    text-align: left;
+}
+
+/* contents 2 */
+#course-content2-subtitle {
+    font-size: 21px;
+    text-align: left;
+    padding: 70px 0px 0px 30px;
+}
+
+#course-content2-text1 {
+    padding: 40px 0px 0px 30px;
+    text-align: left;
+}
+
+#course-content2-text2 {
+    padding: 10px 0px 0px 30px;
+    text-align: left;
+}
+
+#course-content2-text3 {
+    padding: 10px 0px 0px 30px;
+    text-align: left;
+}
+
+#course-content2-text4 {
+    padding: 10px 0px 0px 30px;
+    text-align: left;
+}
+
+#course-content2-text5 {
+    padding: 10px 0px 0px 30px;
+    text-align: left;
+}
+
+/* contents 3 */
+#course-content3-subtitle {
+    font-size: 21px;
+    text-align: left;
+    padding: 70px 0px 0px 45px;
+}
+
+#course-content3-text1 {
+    padding: 40px 0px 0px 45px;
+    text-align: left;
+}
+
+#course-content3-text2 {
+    padding: 10px 0px 0px 45px;
+    text-align: left;
+}
+
+#course-content3-text3 {
+    padding: 10px 0px 0px 45px;
+    text-align: left;
+}
+
+#course-content3-text4 {
+    padding: 10px 0px 0px 45px;
+    text-align: left;
+}
+
+#course-content3-text5 {
+    padding: 10px 0px 0px 45px;
+    text-align: left;
+}
+
+/* News */
+#news {
+    text-align: center;
+}
+
+#news-title {
+    font-size: 24px;
+    color: #ffd61a;
+    padding: 60px 0px 0px 0px;
+}
+
+#news-subtitle {
+    padding: 30px 0px 60px 0px;
+}
+
+.article {
+    display: flex;
+    text-align: left;
+    padding: 0px 100px 60px 100px;
+}
+
+/* article 1 */
+#article1 {
+    padding: 0px 15px 0px 15px;
+}
+
+#article1-date {
+    font-size: 14px;
+    padding: 30px 0px 0px 0px;
+}
+
+#article1-text1 {
+    font-size: 14px;
+    padding: 24px 0px 0px 0px;
+}
+
+#article1-text2 {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+#article1-text3 {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+/* article 2 */
+#article2 {
+    padding: 0px 15px 0px 15px;
+}
+
+#article2-date {
+    font-size: 14px;
+    padding: 30px 0px 0px 0px;
+}
+
+#article2-text1 {
+    font-size: 14px;
+    padding: 24px 0px 0px 0px;
+}
+
+#article2-text2 {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+#article2-text3 {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+/* article 3 */
+#article3 {
+    padding: 0px 15px 0px 15px;
+}
+
+#article3-date {
+    font-size: 14px;
+    padding: 30px 0px 0px 0px;
+}
+
+#article3-text1 {
+    font-size: 14px;
+    padding: 24px 0px 0px 0px;
+}
+
+#article3-text2 {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+#article3-text3 {
+    font-size: 14px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+
+/* More */
+.more-button a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 300px;
+    padding: 10px 25px;
+    color: #333;
+    font-family: "Noto Sans Japanese";
+    text-decoration: none;
+    color: #333;
+    line-height: 1.8;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    background: #eee;
+    border-radius: 9999px;
+    border-bottom: solid 5px #999;
+}
+
+.more-button a:hover {
+    border-bottom: solid 2px #999;
+    transform: translateY(3px);
+}
+
+/* Access */
+#access {
+    text-align: center;
+    background-color: #fafafa;
+    padding: 60px 100px 60px 100px;
+    margin:  60px 0px 10px 0px;
+}
+
+#access-title {
+    font-size: 24px;
+    color: #222222;
+    padding: 60px 100px 0px 100px;
+}
+
+#access-subtitle {
+    padding: 30px 100px 60px 100px;
+}
+
+.location {
+    display: flex;
+    justify-content:space-between;
+    padding: 60px 250px 60px 250px;
+}
+
+.location-position {
+    padding: 30px 0px 0px 0px;
+}
+
+#location-title {
+    text-align: left;
+}
+
+#location-value {
+    text-align: left;
+}
+
+#map {
+    width: 1000px;
+    height: 400px;
+}
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 60px 100px 70px 100px;
+    margin:  0px 0px 0px 0px;
+}
+
+#contact-title {
+    font-size: 24px;
+    color: #222222;
+    padding: 60px 0px 0px 0px;
+}
+
+#contact-subtitle {
+    color: #222222;
+    padding: 30px 0px 0px 0px;
+}
+
+#contact-text1 {
+    padding: 60px 0px 0px 0px;
+}
+
+#contact-text2 {
+    padding: 15px 0px 0px 0px;
+}
+
+#contact-text3 {
+    padding: 30px 0px 0px 0px;
+}
+
+#contact-text4 {
+    padding: 15px 0px 0px 0px;
+}
+
+.form {
+    display: flex;
+    text-align: left;
+    padding: 70px 70px 0px 150px;
+}
+
+#form-title {
+    padding: 0px 0px 0px 0px
+}
+
+#form-name {
+    padding: 15px 50px 0px 50px
+}
+
+#form-kana {
+    padding: 20px 50px 0px 50px
+}
+
+#form-mail {
+    padding: 20px 50px 0px 50px
+}
+
+#form-event {
+    padding: 30px 50px 0px 50px
+}
+
+#form-purpose {
+    padding: 80px 50px 40px 50px
+}
+
+#form-detail {
+    padding: 15px 50px 0px 50px
+}
+
+.checkbox {
+      display: flex;
+      text-align: left;
+      padding: 24px 0px 24px 0px ;;
+}
+
+.textbox {
+    display: flex;
+    flex-flow: column;
+}
+
+.textbox-padding {
+    padding: 8px 8px 8px 8px;
+}
+
+.checkbox-item {
+    padding: 12px 0px 12px 0px ;
+}
+
+#textbox4 {
+    padding: 12px 0px 12px 0px ;
+}
+
+#textbox5 {
+    padding: 12x 0px 12px 0px ;
+}
+
+/* send */
+.send-button a {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    max-width: 300px;
+    padding: 10px 25px;
+    color: #333;
+    font-family: "Noto Sans Japanese";
+    text-decoration: none;
+    color: #333;
+    line-height: 1.8;
+    transition: 0.3s ease-in-out;
+    font-weight: 500;
+    background: #eee;
+    border-radius: 9999px;
+    border-bottom: solid 5px #999;
+}
+
+.send-button a:hover {
+    border-bottom: solid 2px #999;
+    transform: translateY(3px);
+}
+
+.send-button{
+    margin: 30px 100px 100px 140px;
+}
